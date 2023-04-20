@@ -35,13 +35,13 @@ const Navbar = () => {
             <Link href="/">Home</Link>
           </li>
           <li className="p-4">
-            <Link href="/#gallery">Gallery</Link>
+            <Link href="/#gallery">Galleria</Link>
           </li>
           <li className="p-4">
-            <Link href="/work">Work</Link>
+            <Link href="/work">Viaggi</Link>
           </li>
           <li className="p-4">
-            <Link href="/contact">Contact</Link>
+            <Link href="/contact">Contattami</Link>
           </li>
         </ul>
         {/* mobile button */}
