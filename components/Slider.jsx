@@ -11,7 +11,7 @@ const Slider = ({ slides }) => {
     setCurrent(current === length - 1 ? 0 : current + 1)
   }
   const prevSlide = () => {
-    setCurrent(current === l0 ? length - 1 : current - 1)
+    setCurrent(current === 0 ? length - 1 : current - 1)
   }
 
   if (!Array.isArray(slides) || slides.length <= 0) {
@@ -20,7 +20,7 @@ const Slider = ({ slides }) => {
 
   return (
     <div id="gallery" className="max-w-7xl mx-auto">
-      <h1 className="text-2xl font-bold text-center p-4">Gallery</h1>
+      <h1 className="text-2xl font-bold text-center p-4">Galleria</h1>
       <div className="relative flex justify-center p-4">
         {
           SliderData.map((slide, index) => {
