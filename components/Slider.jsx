@@ -28,10 +28,9 @@ const Slider = ({ slides }) => {
               <div key={index} className={index === current ? 'opacity-[1] ease-in duration-1000' : 'opacity-0'}>
                 <FaArrowCircleLeft
                   onClick={prevSlide}
-                  className='absolute top-[50%] left-[30px] text-white/70 cursor-pointer select-none z-[2]'
+                  className='absolute top-[calc(50%-24px)] left-[30px] text-white/70 cursor-pointer select-none z-[2]'
                   size={50}
                 />
-
                 {
                   index === current && (
                     <Image
@@ -39,13 +38,13 @@ const Slider = ({ slides }) => {
                       alt="/"
                       width="1440"
                       height="600"
-                      style={{ objectFit: "cover" }}
+                      className="object-cover w-full h-full"
                     />
                   )
                 }
                 <FaArrowCircleRight
                   onClick={nextSlide}
-                  className='absolute top-[50%] right-[30px] text-white/70 cursor-pointer select-none z-[2]'
+                  className='absolute top-[calc(50%-24px)] right-[30px] text-white/70 cursor-pointer select-none z-[2]'
                   size={50}
                 />
               </div>

@@ -22,7 +22,7 @@ const Portfolio = () => {
             width='215'
             height='217'
             responsive
-            className="object-contain w-full h-full"
+            className="object-cover w-full h-full"
           />
         </div>
         <div className='w-full h-full'>
@@ -32,7 +32,7 @@ const Portfolio = () => {
             width='215'
             height='217'
             responsive
-            className="object-contain w-full h-full"
+            className="object-cover w-full h-full"
           />
         </div>
         <div className='w-full h-full'>
@@ -42,7 +42,7 @@ const Portfolio = () => {
             width='215'
             height='217'
             responsive
-            className="object-contain w-full h-full"
+            className="object-cover w-full h-full"
           />
         </div>
         <div className='w-full h-full'>
@@ -52,7 +52,7 @@ const Portfolio = () => {
             width='215'
             height='217'
             responsive
-            className="object-contain w-full h-full"
+            className="object-cover w-full h-full"
           />
         </div>
       </div>
