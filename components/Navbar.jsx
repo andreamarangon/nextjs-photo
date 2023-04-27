@@ -64,13 +64,13 @@ const Navbar = () => {
               <Link href="/">Home</Link>
             </li>
             <li onClick={handleNav} className="p-4 text-4xl hover:text-gray-500">
-              <Link href="/#gallery">Gallery</Link>
+              <Link href="/#gallery">Galleria</Link>
             </li>
             <li onClick={handleNav} className="p-4 text-4xl hover:text-gray-500">
-              <Link href="/work">Work</Link>
+              <Link href="/work">Viaggi</Link>
             </li>
             <li onClick={handleNav} className="p-4 text-4xl hover:text-gray-500">
-              <Link href="/contact">Contact</Link>
+              <Link href="/contact">Contattami</Link>
             </li>
           </ul>
         </div>
