@@ -13,6 +13,7 @@ const Portfolio = () => {
             responsive="true"
             width='677'
             height='451'
+            className="rounded-2xl"
           />
         </div>
         <div className='w-full h-full'>
@@ -22,7 +23,7 @@ const Portfolio = () => {
             width='215'
             height='217'
             responsive="true"
-            className="object-cover w-full h-full"
+            className="object-cover w-full h-full rounded-lg"
           />
         </div>
         <div className='w-full h-full'>
@@ -32,7 +33,7 @@ const Portfolio = () => {
             width='215'
             height='217'
             responsive="true"
-            className="object-cover w-full h-full"
+            className="object-cover w-full h-full rounded-lg"
           />
         </div>
         <div className='w-full h-full'>
@@ -42,7 +43,7 @@ const Portfolio = () => {
             width='215'
             height='217'
             responsive="true"
-            className="object-cover w-full h-full"
+            className="object-cover w-full h-full rounded-lg"
           />
         </div>
         <div className='w-full h-full'>
@@ -52,7 +53,7 @@ const Portfolio = () => {
             width='215'
             height='217'
             responsive="true"
-            className="object-cover w-full h-full"
+            className="object-cover w-full h-full rounded-lg"
           />
         </div>
       </div>

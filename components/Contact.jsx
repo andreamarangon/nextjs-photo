@@ -6,12 +6,12 @@ const Contact = () => {
       <h1 className='text-2xl font-bold text-center p-4'>Contattami</h1>
       <form className='max-w-[600px] m-auto'>
         <div className='grid grid-cols-2 gap-2'>
-          <input className='border shadow-lg p-3' type="text" placeholder='Nome' />
-          <input className='border shadow-lg p-3' type="email" placeholder='Email' />
+          <input className='border shadow-lg p-3 rounded-lg' type="text" placeholder='Nome' />
+          <input className='border shadow-lg p-3 rounded-lg' type="email" placeholder='Email' />
         </div>
-        <input className='border shadow-lg p-3 w-full my-2' type="text" placeholder='Oggetto' />
-        <textarea className='border shadow-lg p-3 w-full' cols="30" rows="10" placeholder='Messaggio'></textarea>
-        <button className='border shadow-lg p-3 w-full mt-2'>Invia</button>
+        <input className='border shadow-lg p-3 w-full my-2 rounded-lg' type="text" placeholder='Oggetto' />
+        <textarea className='border shadow-lg p-3 w-full rounded-lg' cols="30" rows="10" placeholder='Messaggio'></textarea>
+        <button className='border shadow-lg p-3 w-full mt-2 rounded-lg'>Invia</button>
       </form>
     </div >
 
